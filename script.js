@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       setTimeout(() => {
        
         container.style.display = "block";
-        document.querySelector(".audio").volume = 0.05;
+        document.querySelector(".audio").volume = 0.25;
         document.querySelector(".audio").play();
         displayLyrics();
         flowerRun();
