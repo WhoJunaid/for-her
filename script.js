@@ -95,9 +95,9 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".flower2").style.display = "block";
       document.querySelector(".flower3").style.display = "block";
       setInterval(() => {
-        document.querySelector(".flower1").style.top = top1 + "%";
-        document.querySelector(".flower2").style.top = top2 + "%";
-        document.querySelector(".flower3").style.top = top3 + "%";
+        document.querySelector(".flower1").style.top = top1 + "vh";
+        document.querySelector(".flower2").style.top = top2 + "vh";
+        document.querySelector(".flower3").style.top = top3 + "vh";
         top1 = top1 + Math.random() * .035;
         top2 = top2 + Math.random() * .045;
         top3 = top3 + Math.random() * .025;
